@@ -23,6 +23,7 @@ public class TV extends Aparato implements Hablador{
     public void hablar() {
         System.out.println("Hola soy un TV y se hablar");
         System.out.println(toString());
+        // String telet=(teletexto)?"Si":"No"; Si es true si, si es false no
     }
 
     @Override
